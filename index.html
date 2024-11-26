@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="src/styles/styles.css">
     <link rel="stylesheet" href="src/styles/header.css">
+    <link rel="stylesheet" href="src/styles/home.css">
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <title>Fluxoteca</title>
@@ -13,7 +14,9 @@
 <body>
     <header>
         <nav id="navbar">
-            <i class="fa-solid fa-book" id="nav_logo"> Fluxoteca</i>
+            <a href="#home" id="nav_logo">
+                <img src="src/images/logo.png" alt="Fluxoteca Logo" class="logo-img">
+            </a>
             <ul id="nav_list">
                 <li class="nav-item active">
                     <a href="#home">Início</a>
@@ -55,6 +58,49 @@
 
     <main id="content">
         <section id="home">
+            
+            <div id="cta">
+                <h1 class="title">
+                    Gerencie sua biblioteca de maneira pratica e <span>gratuita</span>
+                </h1>
+
+                <p class="description">
+                    A Fluxoteca é a solução ideal para bibliotecas que buscam eficiência e organização no gerenciamento de livros e leitores.
+                     
+                </p>
+
+                <p class="description">
+                Com um sistema intuitivo e robusto, os bibliotecários têm o poder de transformar a rotina da biblioteca,
+                automatizando tarefas essenciais e proporcionando uma experiência fluida para os usuários.
+                </p>
+                
+
+                <div id="cta_buttons">
+                    <a href="#" class="btn-default">
+                        Ver Aplicativo
+                    </a>
+                </div>
+                
+            
+                <div class="social-media-buttons">
+                    <a href="mailto:fluxoteca@gmai.com" id="email_button" class="btn-default">
+                      
+                         <i class="fa-solid fa-envelope"></i>
+
+                    </a>
+                    <a href="https://github.com/M4teusAlves/fluxoteca" id="git_button" class="btn-default">
+                            <i class="fa-brands fa-github"></i>
+                    </a>
+                </div>
+
+                
+            </div>
+            
+            <div id="banner">
+                <img src="src/images/livraria.jpg" alt="">
+            </div>
+
+            
             
         </section>
     </main>
