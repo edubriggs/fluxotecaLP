@@ -5,9 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="src/styles/styles.css">
-    <link rel="stylesheet" href="src/styles/header.css">
-    <link rel="stylesheet" href="src/styles/home.css">
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <title>Fluxoteca</title>
 </head>
@@ -22,13 +19,13 @@
                     <a href="#home">Início</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#sobre">Sobre nós</a>
+                    <a href="#sobrenos">Sobre o projeto</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#contato">Contato</a>
+                    <a href="#testimonials">Depoimentos</a>
                 </li>
             </ul>
-            <a href="https://github.com/M4teusAlves/fluxoteca" target="_blank">
+            <a href="https://github.com/M4teusAlves/fluxoteca" target="_blank" >
             <button class="btn-default" >
                 Baixar Fluxoteca
             </button></a>
@@ -49,10 +46,11 @@
                     <a href="#contato">Contato</a>
                 </li>
             </ul>
-            <a href="https://github.com/M4teusAlves/fluxoteca" target="_blank">
-                <button class="btn-default" >
+            <a href="https://github.com/M4teusAlves/fluxoteca" class="btn-default" >
+                
                     Baixar Fluxoteca
-                </button></a>
+                
+            </a>
         </div>
     </header>
 
@@ -76,22 +74,14 @@
                 
 
                 <div id="cta_buttons">
-                    <a href="#" class="btn-default">
+                    <a href="https://github.com/M4teusAlves/fluxoteca" class="btn-default">
                         Ver Aplicativo
                     </a>
+                    <a href="mailto:fluxoteca@gmai.com" class="btn-default">
+                        Agendar instalação
+                    </a>
                 </div>
-                
-            
-                <div class="social-media-buttons">
-                    <a href="mailto:fluxoteca@gmai.com" id="email_button" class="btn-default">
-                      
-                         <i class="fa-solid fa-envelope"></i>
 
-                    </a>
-                    <a href="https://github.com/M4teusAlves/fluxoteca" id="git_button" class="btn-default">
-                            <i class="fa-brands fa-github"></i>
-                    </a>
-                </div>
 
                 
             </div>
@@ -103,8 +93,102 @@
             
             
         </section>
-    </main>
+        <section id="sobrenos">
+            <h2 class="section-title">Sobre o projeto</h2>
+            <h3 class="section-subtitle">A Fluxoteca é um aplicativo fácil de ser utilizado</h3>
+            
+            <div class="screen">
+                <img src="src/images/loginscreen.png" alt="Tela de Login">
+                <p>Tela de Login: Acesso seguro e fácil ao aplicativo.</p>
+            </div>
+        
+            <div class="screen">
+                <img src="src/images/bookscreen.png" alt="Tela de Livros">
+                <p>Tela de Livros: Visualize e organize seus livros favoritos.</p>
+            </div>
+        
+            <div class="screen">
+                <img src="src/images/reportscreen.png" alt="Tela de Relatórios">
+                <p>Tela de Relatórios: Acompanhe o desempenho e relatórios detalhados.</p>
+            </div>
+        </section>
 
+        <section id="testimonials">
+            <img src="src/images/bibliotecario.png" id="testimonial_chef" alt="">
+
+            <div id="testimonials_content">
+                <h2 class="section-title">
+                    Depoimentos
+                </h2>
+                <h3 class="section-subtitle">
+                    O que os clientes falam sobre nós
+                </h3>
+
+                <div id="feedbacks">
+                    <div class="feedback">
+                        <img src="src/images/CEC.jfif" class="feedback-avatar" alt="">
+
+                        <div class="feedback-content">
+                            <p>
+                                Comunhão Espírita Cristã
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                                "Nós ajudou a sair do papel e caneta gostamos bastante. A instalação foi muito rápida"
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="feedback">
+                        <img src="src/images/em.jpg" class="feedback-avatar" alt="">
+
+                        <div class="feedback-content">
+                            <p>
+                                Escola Municipal Frederico Peiró
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                                "A escola precisava de um sistema para os empréstimos. Graças à Fluxoteca, agora temos acesso a um gratuito e de fácil utilização."
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+    <footer>
+        <img src="src/images/wave.svg" alt="">
+
+        <div id="footer_items">
+            <span id="copyright">
+                &copy 2024 Fluxoteca
+            </span>
+
+                <a href="mailto:fluxoteca@gmai.com" id="email_button" class="btn-default">
+                  
+                     <i class="fa-solid fa-envelope"></i>
+    
+                </a>
+                <a href="https://github.com/M4teusAlves/fluxoteca" id="git_button" class="btn-default">
+                        <i class="fa-brands fa-github"></i>
+                </a>
+
+        </div>
+
+    </footer>
     <script src="src/javascript/script.js"></script>
 </body>
 </html>
